@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-container {
+    min-width: 1920px;
+    border: 2px solid red;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around; 
+    font-size: 1.6rem;
+    background-color: #a6a6a6;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2vw;
+
+}
+
+.item-list span a {
+    color: white;
+    text-decoration: none;
+}
+
+.item-list {
+    list-style: none;   
+}
+header {
+    height: 90vh;
+    background-image:url(./ravi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0 20%; 
+    
+}
+.main-heading {
+    padding:19.5% 0 0 65%;
+
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+.header p {
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+
+.header p+p+p+p {
+    text-wrap:wrap ;
+    
+}
+
+.header a{
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+
+.header a:hover {
+    font-size: 2.3rem;
+    border: .5rem solid black;
+    border-radius:.5rem;
+}
+
+.header span {
+    color:#FFD18D;
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+
+.header i {
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+/* about section  */
+
+
+.main-body {
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 2% auto;
+    font-size: 1.5rem;
+}
+
+#about, #skill , #project ,#contact{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 2%;
+}
+
+
+.main-body h1+h3 {
+    margin-bottom: 1%;
+}
+
+
+.row1 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.table {
+    margin-right: 10vw;
+}
+
+.table li {
+    list-style: none;
+   margin-bottom : 3rem;
+}
+
+/* Project */ 
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+
+.box {
+    border: 2px solid black;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 5%;
+}
+
+.box img {
+    width: 100%;
+    height:90%;
+}
+
+.project-data {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+/* Contact  */
+
+.row3 {
+    display: flex;
+    align-items:center;
+}
+
+.form {
+    display: flex;
+    margin-left: 20%;
+}
+
+input {
+    border-radius: 1rem;
+    padding:1rem .5rem;
+    width: 20vw;
+    margin-bottom: 5%;
+}
+
+textarea {
+    padding:.5rem;
+    width: 20vw;
+    height: 15vh;
+
+}
+
+[type="submit"]{
+    margin-top: 5%;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.form-group {
+    box-shadow:5px 4px 8px 0 gray;
+}
